@@ -1,0 +1,11 @@
+
+body {
+  font-family: math;
+  margin: 100;
+}
+#RockClimbing{
+  margin: auto;
+  max-width: 500px;
+  width: 70%;
+}
+//*that above deosnt work 
