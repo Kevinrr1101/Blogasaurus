@@ -1,0 +1,27 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>New post!</title>
+  </head>
+  <body>
+    <form method="post" action="/newpost">
+      <label>
+        Post Title:
+        <input type="text" name="post_title" value="">
+      </label>
+      <label>
+        Name:
+      <input type="text" name="name" value="">
+      </label>
+      <label>
+        Post Content:
+      <select name="post_content">
+        <option value="fiction">Fiction</option>
+        <option value="non-fiction">Non Fiction</option>
+        <option value="random">Random</option>
+      </select>
+        </label>
+      <button type="new_post">Create New Post</button>
+    </form>
+  </body>
+</html>
